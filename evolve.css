@@ -1,0 +1,58 @@
+* { background-color: #263238; margin-left: 1vw; margin-top: 1vh; font-family: arial; outline: none; border: 1vw, solid, black; font-size: 1.5vw; color: #F5F5F5;}
+
+#start {
+	resize: none;
+	position: absolute;
+	height: 45vh;
+	width: 45vw;
+	top: 0vh;
+	left: 0vw;
+}
+
+#output {
+	resize: none;
+	position: absolute;
+	height: 45vh;
+	width: 45vw;
+	top: 50vh;
+	left: 0vw;
+}
+
+#rules {
+	resize: none;
+	position: absolute;
+	height: 45vh;
+	width: 25vw;
+	top: 0vh;
+	left: 50vw;
+}
+
+#evolve {
+	border: none;
+	font-size: 1.5vw;
+	position: absolute;
+	height: 6vh;
+	width: 6vw;
+	top: 50vh;
+	left: 50vw;
+}
+
+#evolve:hover {
+	border: 2px solid black;
+	cursor: pointer;
+}
+
+#clear {
+	border: none;
+	font-size: 1.5vw;
+	position: absolute;
+	height: 6vh;
+	width: 6vw;
+	top: 58vh;
+	left: 50vw;
+}
+
+#clear:hover {
+	border: 2px solid black;
+	cursor: pointer;
+}

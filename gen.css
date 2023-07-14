@@ -1,0 +1,129 @@
+* {
+	font-family: arial;
+	margin: 1vh;
+	color: #263238;
+	background-color: #263238;
+	border: 0px solid black;
+}
+
+#cons {
+	font-size: 1vw;
+	width: 8vw;
+	height: 3vh;
+	border-radius: 1px;
+	background-color: #ECEFF1;
+	position: absolute;
+	left: 52vw;
+	top: 5vh;
+}
+
+#vowel {
+	font-size: 1vw;
+	width: 8vw;
+	height: 3vh;
+	border-radius: 1px;
+	background-color: #ECEFF1;
+	position: absolute;
+	left: 52vw;
+	top: 10vh;
+}
+
+#order {
+	font-size: 1vw;
+	width: 8vw;
+	height: 3vh;
+	border-radius: 1px;
+	background-color: #ECEFF1;
+	position: absolute;
+	left: 52vw;
+	top: 15vh;
+}
+
+#wordcount {
+	font-size: 1vw;
+	width: 8vw;
+	height: 3vh;
+	border-radius: 1px;
+	background-color: #ECEFF1;
+	position: absolute;
+	left: 52vw;
+	top: 20vh;
+}
+
+#maxwordlen {
+	font-size: 1vw;
+	width: 8vw;
+	height: 3vh;
+	border-radius: 1px;
+	background-color: #ECEFF1;
+	position: absolute;
+	left: 52vw;
+	top: 25vh;
+}
+
+#minwordlen {
+	font-size: 1vw;
+	width: 8vw;
+	height: 3vh;
+	border-radius: 1px;
+	background-color: #ECEFF1;
+	position: absolute;
+	left: 52vw;
+	top: 30vh;
+}
+
+#go {
+	font-size: 1vw;
+	width: 6vw;
+	height: 2vw;
+	border-radius: 1px;
+	background-color: #ECEFF1;
+	position: absolute;
+	left: 52vw;
+	top: 35vh;
+}
+
+#go:hover {
+	border-radius: 1px;
+	border: 1px dashed black;
+}
+
+#out {
+	font-size: 1vw;
+	height: 92vh;
+	width: 50vw;
+	resize: none;
+	border-radius: 1px;
+	background-color: #ECEFF1;
+	position: absolute;
+	top: 1vw;
+	left: 1vh;
+}
+
+#out:focus {
+	outline: none;
+}
+
+#automatch {
+	color: #ECEFF1;
+	font-size: 1vw;
+	width: 8vw;
+	height: 3vh;
+	border-radius: 1px;
+	background-color: #ECEFF1;
+	position: absolute;
+	left: 49vw;
+	top: 40vh;
+}
+
+#automatch_label {
+	background-color: #263238;
+	color: #ECEFF1;
+	font-size: 1vw;
+	width: 8vw;
+	height: 3vh;
+	border-radius: 1px;
+	position: absolute;
+	left: 54vw;
+	top: 40vh;
+}

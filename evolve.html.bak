@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>word evolve</title>
+		<link rel="stylesheet" href="evolve.css">
+		<script type="text/javascript" src="evolve.js"></script>
+	</head>
+	
+	<button onClick="evolve();" id="evolve">evolve</button>
+	<button onClick="clr" id="clear">clear</button>
+	<textarea id="start"></textarea>
+	<textarea id="output" readonly></textarea>
+	<textarea id="rules"></textarea>
+</html>

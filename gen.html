@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>word gen</title>
+		<link rel="stylesheet" href="gen.css">
+		<script type="text/javascript" src="gen.js"></script>
+	</head>
+	<body>
+	<input type="text" id="cons">
+	<input type="text" id="vowel">
+	<input type="text" id="order">
+	<input type="number" id="wordcount" value=1></input>
+	<input type="number" id="minwordlen" value=1></input>
+	<input type="number" id="maxwordlen" value=2></input>
+	<label for="automatch" id="automatch_label">automatch</label>
+	<input type="checkbox" id="automatch" name="automatch"></input>mm
+	<button id="go" onclick="generate()">Generate</button>
+	<textarea id="out" readonly></textarea>
+	</body>
+</html>
